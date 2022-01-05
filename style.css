@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family:  'Poppins', sans-serif;;
+}
+
+header{
+    background-color: #F7C7B9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cabecalho-imagem-e-titulo{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.nav-cabecalho{
+    display: flex;
+    gap: 30px;
+}
+
+.item-nav-cabecalho{
+    color: #161212;
+}
+
+.sessao-1{
+    background-color: #F7C7B9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.sessao-1-conteudo-escrito{
+    display: flex;  
+    flex-direction: column;  
+    margin-top: 80px;
+}
+
+.sessao-1-titulo{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 52px;
+    color: #161212;
+}
+
+.sessao-1-texto{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #404040;
+}
+
+.sessao-1-imagem{
+    width: 600px;
+    height: 360px;
+}
+
+.sessao-1-botao{
+    background-color: #DA2535;
+    width: 250px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    color: #F9F9F9;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.sessao-1-botao:hover{
+   background-color: rgba(218, 37, 53, 0.8)
+}
+
+.sessao-2{
+    background-color: #F9F9F9;
+    padding-bottom: 100px;  
+}
+
+.sessao-2-conteudo-escrito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.sessao-2-titulo{
+    color: #161212;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    padding-top: 50px;
+}
+
+.sessao-2-texto{
+    color: #404040;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.sessao-2-imagem{
+    width: 200px;
+    height: 200px;
+}
+
+.sessao-2-imagens{     
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 30px;
+      
+}
+
+.sessao-2-conjunto-h3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 75px;
+    padding-top: 30px;
+  
+}
+
+.sessao-2-conjunto-textos-pequenos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #161212;
+    gap: 30px;
+    text-align: center;
+    padding-top: 20px;
+    
+    
+}
+
+.sessao-2-conjunto-textos-pequenos{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8D8D8D;
+}
+
+.sessao-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F7C7B9;
+    padding-bottom: 100px;  
+    padding-top: 100px;
+}
+
+.sessao-3-imagem{
+    width: 400px;
+    height: 400px;
+}
+
+.sessao-3-titulo{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 52px;
+    color: #161212;
+}
+
+.sessao-3-texto{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px;
+    color: #404040;
+}
+
+.sessao-3-botao{
+    margin-top: 20px;
+    background-color: #DA2535;
+    width: 250px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    color: #F9F9F9;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.sessao-3-botao:hover{
+    background-color: rgba(218, 37, 53, 0.8)
+}
+
+.rodape-imagem-e-titulo{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+footer{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #F9F9F9;
+}
+
+
+.rodape-imagens{
+    display: flex;
+    gap: 50px;
+    cursor: pointer;
+    
+}
